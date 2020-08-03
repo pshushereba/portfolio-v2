@@ -26,6 +26,19 @@ const Projects = () => {
           </p>
         </div>
       </section>
+      <section className="flex flex-row-reverse">
+        <div className="w-1/2">
+          <img src="/spider_graph_chart.png" />
+        </div>
+        <div className="w-1/2 flex">
+          <p>
+            Spider Graph is an application that makes it easy for users to
+            create graphs of their data. They are able to add as many axis as
+            they need to present their data. The back end consists of a REST API
+            built using Node, Express, Knex and Postgres. Deployed to Heroku.
+          </p>
+        </div>
+      </section>
     </>
   );
 };
