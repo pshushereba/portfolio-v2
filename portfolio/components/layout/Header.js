@@ -4,7 +4,7 @@ const Header = () => {
   return (
     <div className="bg-red-700 w-full h-16">
       <div className="flex align-middle h-full justify-between">
-        <div className="w-1/5 flex-row">
+        <div className="w-1/5 flex align-middle">
           <h1 className="h-full self-center">Patrick Shushereba</h1>
         </div>
         <div className="flex align-middle w-2/5 justify-around">
