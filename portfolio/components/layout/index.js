@@ -1,9 +1,12 @@
 import Header from "../layout/Header.js";
+import Footer from "../layout/Footer.js";
 
 const Layout = ({ children }) => {
   return (
-    <div>
+    <div className="bg-bg-gray-custom">
       <Header />
+      {children}
+      <Footer />
     </div>
   );
 };
