@@ -5,7 +5,7 @@ const blog = () => {
     <>
       <Layout />
       <h2>Blog</h2>
-      <p>The blog is in progress.</p>
+      <p>The blog is under construction.</p>
     </>
   );
 };
