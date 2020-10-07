@@ -3,11 +3,13 @@ import Footer from "../layout/Footer.js";
 
 const Layout = ({ children }) => {
   return (
-    <div className="bg-bg-gray-custom">
-      <Header />
-      {children}
-      <Footer />
-    </div>
+    <>
+      <div className="bg-bg-gray-custom">
+        <Header />
+        {children}
+        <Footer />
+      </div>
+    </>
   );
 };
 
